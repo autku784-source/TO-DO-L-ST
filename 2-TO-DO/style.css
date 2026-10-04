@@ -1,0 +1,71 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1d337c7;
+    font-family: sans-serif;
+}
+
+#h1 {
+    padding: 15px;
+    font-size: 4rem;
+}
+
+#gorev-input {
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#ekle-btn {
+    background-color: rgb(255, 119, 0);
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 119, 0);
+}
+
+#liste {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+.gorev {
+    background-color: #fffbe6;
+    border: 1px solid #e0d9b0;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sil-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.duzenle-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
